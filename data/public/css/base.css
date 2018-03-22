@@ -1,0 +1,147 @@
+/* Css de la navbar */
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 255, 225, 0.548);
+}
+ul{
+    display: flex;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    margin: 0;
+    padding: 10px;
+    justify-content: space-around;
+}
+ul a{
+    margin-right: 25px;
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    border:dashed 0px #000000;
+    -moz-border-radius-topleft: 38px;
+    -moz-border-radius-topright:38px;
+    -moz-border-radius-bottomleft:37px;
+    -moz-border-radius-bottomright:37px;
+    -webkit-border-top-left-radius:38px;
+    -webkit-border-top-right-radius:38px;
+    -webkit-border-bottom-left-radius:37px;
+    -webkit-border-bottom-right-radius:37px;
+    border-top-left-radius:38px;
+    border-top-right-radius:38px;
+    border-bottom-left-radius:37px;
+    border-bottom-right-radius:37px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Css de la liste */
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+table{
+    display: flex;
+    justify-content: center;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    width: 70%;
+    padding: 35px;
+    box-shadow: 5px 5px 5px black;
+    border:dashed 0px #000000;
+    -moz-border-radius-topleft: 75px;
+    -moz-border-radius-topright:0px;
+    -moz-border-radius-bottomleft:0px;
+    -moz-border-radius-bottomright:75px;
+    -webkit-border-top-left-radius:75px;
+    -webkit-border-top-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -webkit-border-bottom-right-radius:75px;
+    border-top-left-radius:75px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:75px;
+}
+th{
+    background-color: rgba(255, 255, 255, 0.555);
+    border: solid 2px rgba(0, 0, 0, 0.576);
+    padding: 5px;
+
+}
+td{
+    background-color: rgba(255, 255, 255, 0.555);
+    border: solid 2px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+/* Css de la formulaire */
+
+.form{
+    display:flex;
+    justify-content: center;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    box-shadow: 5px 5px 5px black;
+    padding: 35px;
+    margin-bottom: 50px;
+    border:dashed 0px #000000;
+    -moz-border-radius-topleft: 75px;
+    -moz-border-radius-topright:0px;
+    -moz-border-radius-bottomleft:0px;
+    -moz-border-radius-bottomright:75px;
+    -webkit-border-top-left-radius:75px;
+    -webkit-border-top-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -webkit-border-bottom-right-radius:75px;
+    border-top-left-radius:75px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:75px;
+}
+.create{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.527);;
+    padding: 10px;
+    margin: 11px;
+    border:dashed 0px #000000;
+    -moz-border-radius-topleft: 38px;
+    -moz-border-radius-topright:38px;
+    -moz-border-radius-bottomleft:37px;
+    -moz-border-radius-bottomright:37px;
+    -webkit-border-top-left-radius:38px;
+    -webkit-border-top-right-radius:38px;
+    -webkit-border-bottom-left-radius:37px;
+    -webkit-border-bottom-right-radius:37px;
+    border-top-left-radius:38px;
+    border-top-right-radius:38px;
+    border-bottom-left-radius:37px;
+    border-bottom-right-radius:37px;
+}
+
+.transition{
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(0.813) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.813) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.813) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.813) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.813) skew(1deg) translate(0px);
+}
+.transition:hover{
+    transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+}
