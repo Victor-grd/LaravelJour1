@@ -8,7 +8,7 @@ body{
 }
 ul{
     display: flex;
-    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(rgba(216, 168, 168, 0.445)), to(rgb(251, 239, 154)));
     margin: 0;
     padding: 10px;
     justify-content: space-around;
@@ -53,23 +53,11 @@ h1{
 table{
     display: flex;
     justify-content: center;
-    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(rgba(216, 168, 168, 0.486)), to(rgb(251, 239, 154)));
     width: 70%;
     padding: 35px;
     box-shadow: 5px 5px 5px black;
-    border:dashed 0px #000000;
-    -moz-border-radius-topleft: 75px;
-    -moz-border-radius-topright:0px;
-    -moz-border-radius-bottomleft:0px;
-    -moz-border-radius-bottomright:75px;
-    -webkit-border-top-left-radius:75px;
-    -webkit-border-top-right-radius:0px;
-    -webkit-border-bottom-left-radius:0px;
-    -webkit-border-bottom-right-radius:75px;
-    border-top-left-radius:75px;
-    border-top-right-radius:0px;
-    border-bottom-left-radius:0px;
-    border-bottom-right-radius:75px;
+    border-radius: 38px;
 }
 th{
     background-color: rgba(255, 255, 255, 0.555);
@@ -88,23 +76,11 @@ td{
 .form{
     display:flex;
     justify-content: center;
-    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FFFFE1), to(#ABFFFF));
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(rgba(216, 168, 168, 0.489)), to(rgb(251, 239, 154)));
     box-shadow: 5px 5px 5px black;
     padding: 35px;
     margin-bottom: 50px;
-    border:dashed 0px #000000;
-    -moz-border-radius-topleft: 75px;
-    -moz-border-radius-topright:0px;
-    -moz-border-radius-bottomleft:0px;
-    -moz-border-radius-bottomright:75px;
-    -webkit-border-top-left-radius:75px;
-    -webkit-border-top-right-radius:0px;
-    -webkit-border-bottom-left-radius:0px;
-    -webkit-border-bottom-right-radius:75px;
-    border-top-left-radius:75px;
-    border-top-right-radius:0px;
-    border-bottom-left-radius:0px;
-    border-bottom-right-radius:75px;
+    border-radius: 38px;
 }
 .create{
     display: flex;
@@ -144,4 +120,42 @@ td{
     -moz-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
     -o-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
     -ms-transform: rotate(0deg) scale(0.96) skew(1deg) translate(0px);
+}
+.it{
+    display: block;
+    background-image: url('./IT.png');
+    background-size: cover;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom:8%;
+    left:80%;
+}
+
+/* Css du footer */
+
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(rgba(216, 168, 168, 0.5)), to(rgb(251, 239, 154)));
+    
+}
+
+/* Css résponsive*/
+
+
+@media screen and (max-width: 814px) {
+  table{
+      padding:30px;;
+      width: 420px;
+  }
+  th{
+      font-size: 12px;
+  }
+  td{
+    font-family: none;
+    font-size: 12px;
+    }
 }

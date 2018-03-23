@@ -5,7 +5,7 @@
 
 <h1>Mettre a jour</h1>
 
-<div id="form">
+<div class="form">
     {!! Form::open(['url' => '/majMusique']) !!}
     {{ Form::hidden('id', $musique['id']) }} 
    
@@ -22,7 +22,8 @@
     <div class="create">
     	{{ Form::label('genre', 'genre: ')}}
     	{{ Form::select('genre', [
-            'genre'=>['A'=>'A', 'B'=>'B'],
+            'genre précedent'=>[$musique['genre']],
+            'genre'=>['blues'=>'blues', 'country'=>'country', 'disco'=>'disco', 'folk'=>'folk', 'funk'=>'funk', 'jazz'=>'jazz', 'rap'=>'rap', 'reggae'=>'reggae', 'rock'=>'rock', 'salsa'=>'salsa', 'soul'=>'soul', 'techno'=>'techno','autre'=>'autre']
         ])}}
     </div>
 
@@ -33,6 +34,9 @@
 
     <div class="create">
     	{{ Form::submit('Mettre a jour')}}
+       <div class="create">
+       <a class="transition" href="{{ url('/liste') }}">Retour</a>
+       </div>
     </div>
        {!! Form::close() !!}
 </div>

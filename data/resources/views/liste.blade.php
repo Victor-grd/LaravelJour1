@@ -6,9 +6,9 @@
 <table>
     <tr>
         <th>Artiste</th>
-        <th>Nom de la musique</th>
-        <th>Genre de musique</th>
-        <th>Nombre d'exemplaire</th>
+        <th>Nom</th>
+        <th>Genre</th>
+        <th>exemplaire</th>
         <th>Supprimer</th>
         <th>Update</th>
     </tr>
@@ -25,7 +25,6 @@
             {{ Form::submit('X') }}
             {{ Form::close() }}
         </td>
-
         <td>
             {{ Form::open(['url' => '/maj', 'method' => 'post']) }}
             {{ Form::hidden('id', $musique['id']) }}

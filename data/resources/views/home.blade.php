@@ -1,23 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<center><h1>Bonsoir</h1></center>
+<center><h2>Bienvenue sur le Laravel de Victor</h2></center>
+<center><a href="{{ url('/liste') }}">let's go</a><center>
+  <footer>
+  </footer>
 @endsection

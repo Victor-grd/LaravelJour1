@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Genre as Genre;
 use App\Musique as Musique;
 use Illuminate\Http\Request;
 
@@ -40,7 +39,10 @@ class HomeController extends Controller
     {
         return view('ajouterMusique');
     }
-
+     public function Genre()
+    {
+        return view('genre');
+    }
 /* fonction pour les musiques */
 
     public function nouvelleMusique(Request $request)
